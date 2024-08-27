@@ -12,4 +12,4 @@ description:
   The first blog post of Jax.
 ---
 
-From today, I will start to write blogs here.
+From today, I will start to write blogs here!
