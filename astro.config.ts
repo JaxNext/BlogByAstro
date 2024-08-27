@@ -6,6 +6,8 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 
+import relativeLinks from "astro-relative-links";
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
@@ -15,6 +17,7 @@ export default defineConfig({
     }),
     react(),
     sitemap(),
+    // relativeLinks()
   ],
   markdown: {
     remarkPlugins: [
@@ -28,7 +31,10 @@ export default defineConfig({
     ],
     shikiConfig: {
       // For more themes, visit https://shiki.style/themes
-      themes: { light: "min-light", dark: "night-owl" },
+      themes: {
+        light: "min-light",
+        dark: "night-owl"
+      },
       wrap: true,
     },
   },
