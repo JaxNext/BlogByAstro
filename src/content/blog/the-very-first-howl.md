@@ -1,7 +1,7 @@
 ---
 author: Jax
-pubDatetime: 2022-09-23T15:22:00Z
-modDatetime: 2023-12-21T09:12:47.400Z
+pubDatetime: 2024-08-27T15:22:00Z
+modDatetime: 2024-08-27T15:22:00Z
 title: The very first howl
 slug: the-very-first-howl
 featured: true
